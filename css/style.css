@@ -23,6 +23,7 @@ body {
     font-weight: bolder;
     background-color: red;
     border-radius: 4rem 6rem;
+
 }
 #nav-links{
     display: flex;
@@ -148,7 +149,7 @@ body {
 }
 .image a{
     text-decoration: none;
-    color: orange;
+    color: black;
 }
 .serve-btn{
     text-align: center;
