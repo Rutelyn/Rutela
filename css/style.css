@@ -64,20 +64,25 @@ body {
 } 
 
 .about-section{
-    margin: 10rem 8rem;
+    height: 120vh;
+    background-image: url('../images/card.png');
+    background-position: center;
+    background-size: cover;
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
 }
     
 .images{
     display: flex;
     width: 80%;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .about-text{
+    align-items: center;
     width: 30%;
     font-size: 20px;
+    padding-left: 2rem;
 }
 
 .about-text h3{
@@ -87,6 +92,8 @@ body {
 .images img{
     width: 300px;
     height: 350px;
+    margin-top: 2rem;
+    margin-left: 8rem;
 }
 
 .about-btn{
@@ -108,8 +115,11 @@ body {
 }
 
 .serve-section{
-    margin: 10rem 10rem; 
-    padding: 2rem 4rem; 
+    background-image: url('../images/bg2.jpeg');
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 2rem;
+    
 }
 .serve-text{
     padding-bottom: 2rem;
@@ -118,13 +128,15 @@ body {
 }
 
 .serve-text h3{
-    color: orange;
+    color: rgb(212, 143, 16);
     font-size: 20px;
 }
    
 .serve-images{
     display: flex;
     gap: 20px;
+    grid-template-columns: 4fr;
+    grid-template-rows: 1fr;
 }
 .image{
     width: 50%;
