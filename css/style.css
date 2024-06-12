@@ -1,11 +1,11 @@
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
 }
-#header-bg{
+
+#header-bg {
     background-image: url("../images/idowu.jpg");
     background-position: center;
     background-size: cover;
@@ -15,143 +15,206 @@ body {
     font-family: 'Times New Roman', Times, serif;
 
 }
-#logo{
-    text-decoration: none;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30pt;
-    font-weight: bolder;
-    background-color: red;
-    border-radius: 4rem 6rem;
 
+#logo {
+    font-family: Arial;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(250, 8, 8);
+    padding: 15px 25px;
+    border-radius: 4rem;
+    border: none;
+    font-size: 20px;
+    color: white;
 }
-#nav-links{
+
+#logo:hover {
+    background: #fcaf3c;
+    background-image: -webkit-linear-gradient(top, #fcaf3c, #d9d134);
+    background-image: -moz-linear-gradient(top, #fcaf3c, #d9d134);
+    background-image: -ms-linear-gradient(top, #fcaf3c, #d9d134);
+    background-image: -o-linear-gradient(top, #fcaf3c, #d9d134);
+    background-image: linear-gradient(to bottom, #fcaf3c, #d9d134);
+    text-decoration: none;
+}
+
+#nav-links {
     display: flex;
     font-size: 20px;
     justify-content: space-between;
 }
+
 #ul-list {
     display: flex;
     list-style: none;
     gap: 30px;
 }
-    
+
 .navitems {
     text-decoration: none;
     color: white;
 }
 
-.navitems:hover{
+.navitems:hover {
     color: orange;
 }
 
-.btn{
+.btn {
     background-color: transparent;
-    padding: 2px 30px;
-    border-radius: 2rem;
+    padding: 2px 5px;
+    margin: 2px 5px;
+    border-radius: 4rem;
     border: 2px solid white;
-       
+
 }
 
-.btn a{
+.btn a {
     text-decoration: none;
     color: white;
 }
 
-.header-text{
+.header-text {
     color: white;
     font-size: 60px;
     margin-top: 10rem;
-} 
+}
 
-.about-section{
+.about-section {
     height: 120vh;
     background-image: url('../images/card.png');
     background-position: center;
     background-size: cover;
     display: flex;
     gap: 3rem;
-}
-    
-.images{
-    display: flex;
-    width: 80%;
-    gap: 1rem;
+    padding-top: 3rem;
 }
 
-.about-text{
+.images {
+    display: flex;
+    width: 80%;
+    gap: 5px;
+}
+
+.about-text {
     align-items: center;
     width: 30%;
     font-size: 20px;
     padding-left: 2rem;
 }
 
-.about-text h3{
+.about-text h3 {
     color: orange;
     font-size: 20px;
 }
-.images img{
+
+.images img {
     width: 300px;
     height: 350px;
     margin-top: 2rem;
     margin-left: 8rem;
 }
 
-.about-btn{
+.about-btn {
     background-color: orangered;
     padding: 15px 25px;
-    border-radius: 5rem; 
-    border: none; 
+    border-radius: 5rem;
+    border: none;
     font-size: 20px;
     color: white;
 }
 
-.about-btn a{
+.about-btn a {
     text-decoration: none;
     color: white;
 }
 
-.about-btn:hover{
+.about-btn:hover {
     background-color: rgb(117, 117, 16);
 }
 
-.serve-section{
+.serve-section {
     background-image: url('../images/bg2.jpeg');
     background-position: center;
     background-size: cover;
     padding: 2rem 2rem;
-    
+
 }
-.serve-text{
+
+.serve-text {
     padding-bottom: 2rem;
     width: 50%;
     font-size: 20px;
 }
 
-.serve-text h3{
+.serve-text h3 {
     color: rgb(212, 143, 16);
     font-size: 20px;
 }
-   
-.serve-images{
+
+.serve-images {
     display: flex;
     gap: 20px;
     grid-template-columns: 4fr;
     grid-template-rows: 1fr;
 }
-.image{
+
+.image {
     width: 50%;
     font-size: 15px;
 }
 
-.image img{
+.image img {
     width: 100%;
 }
-.image a{
+
+.image a {
     text-decoration: none;
     color: black;
 }
-.serve-btn{
+
+.serve-btn {
     text-align: center;
     margin-top: 2rem;
+}
+
+.testimonials {
+    display: flex;
+    color: rgb(36, 25, 25);
+    background-image: url('../images/afrosmile.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 180vh;
+    padding-right: 2rem;
+    color: white;
+}
+
+.testimonials img {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+    width: 70%;
+    height: 40vh;
+}
+
+#t-images{
+    margin-top: 4rem;
+    margin:2rem;
+    width: 30%;
+    padding-top: 0rem;
+    padding-left: 1rem;
+}
+
+#products{
+    margin-left: 30rem;
+    margin-top: 4rem;
+}
+
+#footer{
+    display: flex;
+}
+#footer img{
+    width: 30%;
+    height: 30%;
 }
