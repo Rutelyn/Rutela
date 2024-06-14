@@ -288,6 +288,7 @@ body {
     height: 20%;
     justify-content: space-around;
     font-size: 15px;
+    padding: 10px;
 }
 
 .get-btn {
